@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: rgb(253, 252, 251);
+}
+.navbar-nav {
+  margin-left: 30%;
+  padding-right: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 5rem;
+  font-family: "Poppins", sans-serif;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.form-floating label {
+  margin-left: 13% !important;
+}
+#log-but {
+  margin-left: 36%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.panel-lists button {
+  margin-left: 1rem;
+}
+#cardy {
+  background-color: rgb(231, 231, 231);
+  border-radius: 1rem;
+}
+.sub input {
+  border: 3px solid rgb(185, 181, 181) !important;
+  border-radius: 1rem;
+}
+
+.sub input:focus {
+  border-bottom: 3px solid rgb(12, 12, 12) !important;
+  outline: none;
+}
+.modal-footer {
+  text-decoration: none !important;
+}
